@@ -12,8 +12,8 @@
 
 PACKAGE_DIR='OsCam_EMU/main'
 
-MY_IPK="enigma2-plugin-softcams-oscam_11.714-emu-r798_all.ipk"
-MY_DEB="enigma2-plugin-softcams-oscam-osdreambox_11.714-emu-r798_all.deb"
+MY_IPK="enigma2-plugin-softcams-oscam_11.711-emu-r798_all.ipk"
+MY_DEB="enigma2-plugin-softcams-oscam-osdreambox_11.711-emu-r798_all.deb"
 
 ########################################################################################################################
 # Auto ... Do not change
@@ -59,7 +59,7 @@ if [ -f $MY_TMP_FILE ]; then
 	echo $MY_SEP
 	echo ''
 	if which dpkg > /dev/null 2>&1; then
-		dpkg -i --force-overwrite $MY_TMP_FILE
+		apt-get install --reinstall $MY_TMP_FILE -y
 	else
 		opkg install --force-reinstall $MY_TMP_FILE
 	fi
