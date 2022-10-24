@@ -12,8 +12,8 @@
 
 PACKAGE_DIR='OsCam_EMU/main'
 
-MY_IPK="enigma2-plugin-softcams-oscam_11.714-emu-r798_all.ipk"
-MY_DEB="enigma2-plugin-softcams-oscam-osdreambox_11.714-emu-r798_all.deb"
+MY_IPK="enigma2-plugin-softcams-oscam_11.715-emu-r798_all.ipk"
+MY_DEB="enigma2-plugin-softcams-oscam-osdreambox-11.715-emu-r798.deb"
 
 ########################################################################################################################
 # Auto ... Do not change
